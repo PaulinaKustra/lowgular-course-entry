@@ -1,0 +1,13 @@
+.item-link {
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+.item-text {
+  margin: 10px;
+  font-weight: bold;
+}
