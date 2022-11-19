@@ -2,17 +2,12 @@
 
 <mat-list *ngIf="data$ | async as data; else empty" >
   <mat-list-item *ngFor="let employee of data" class="item-link" >
-
     <p class="vertical-center">
-    <img height="30px" matListItemAvatar src="{{employee.image}}" alt="...">
-
-
       <span  class="item-text">{{employee.id}}</span>
        <span class="item-text" >{{employee.name}}</span>
-      <span class="item-text"> -- {{employee.email}}</span>
     </p>
-
   </mat-list-item>
 </mat-list>
 
 <ng-template #empty> There is no data </ng-template>
+

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmployeeListComponentModule } from "./ui/employee-list/employee-list.component-module";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {EmployeesFacesComponentModule} from "./ui/employees-faces/employees-faces.component-module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HttpClientModule,
     EmployeeListComponentModule,
     BrowserAnimationsModule,
+    EmployeesFacesComponentModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
