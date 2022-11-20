@@ -3,7 +3,7 @@
 <mat-list *ngIf="data$ | async as data; else empty" >
   <mat-list-item *ngFor="let employee of data" class="item-link" >
     <p class="vertical-center">
-      <span  class="item-text">{{employee.id}}</span>
+      <span  class="item-text">{{employee.personalNumber}}</span>
        <span class="item-text" >{{employee.name}}</span>
     </p>
   </mat-list-item>
