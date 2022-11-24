@@ -1,5 +1,5 @@
 export interface PersonModel {
-   personalNumber: string;
+   personalNumber: number;
    name: string;
    mail: string;
    img: string;
