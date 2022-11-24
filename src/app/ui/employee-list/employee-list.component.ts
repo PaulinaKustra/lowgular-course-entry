@@ -14,4 +14,10 @@ export class EmployeeListComponent {
   constructor(private _employeeService: EmployeeService) { }
   data$: Observable<PersonModel[] | null> = this._employeeService.getAll();
 
+  remove(id: string) {
+    this._employeeService.delete(id).subscribe((result) => {
+      if(result.status === "success" )
+        alert('User was successfully removed');
+    });
+  }
 }
