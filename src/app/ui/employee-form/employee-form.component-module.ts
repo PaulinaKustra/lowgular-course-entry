@@ -1,10 +1,13 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import { EmployeeFormComponent } from './employee-form.component';
+import {ReactiveFormsModule} from "@angular/forms";
 import {CommonModule} from "@angular/common";
 
 @NgModule({
-  imports: [ReactiveFormsModule, CommonModule],
+  imports: [
+    ReactiveFormsModule,
+    CommonModule
+  ],
   declarations: [EmployeeFormComponent],
   providers: [],
   exports: [EmployeeFormComponent]

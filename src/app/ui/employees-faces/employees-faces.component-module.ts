@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 import { EmployeesFacesComponent } from './employees-faces.component';
 import {CommonModule} from "@angular/common";
 

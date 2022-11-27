@@ -1,19 +1,25 @@
-<!--<h1 style="color:darkgreen">Employee List</h1>-->
-
-<h1>Employee list</h1>
-<ul *ngIf="data$ | async as data; else empty">
-  <li *ngFor="let employee of data">{{ employee.personalNumber }}: {{ employee.name }} <button (click)="remove(employee.personalNumber)">Remove me</button></li>
-</ul>
 
 
-<!--<mat-list *ngIf="data$ | async as data; else empty" >-->
-<!--  <mat-list-item *ngFor="let employee of data" class="item-link">-->
-<!--    <p class="vertical-center" <button>Remove</button>>-->
-<!--      <span  class="item-text">{{employee.personalNumber}}</span>-->
-<!--       <span class="item-text" >{{employee.name}}</span>-->
-<!--    </p>-->
-<!--  </mat-list-item>-->
-<!--</mat-list>-->
+
+
+
 
 <ng-template #empty> There is no data </ng-template>
 
+
+<table class="table">
+  <thead>
+  <tr>
+    <th class="rows">Id</th>
+    <th class="rows">Name</th>
+    <th class="rows">Remove</th>
+  </tr>
+  </thead>
+  <tbody *ngIf="data$ | async as data; else empty">
+  <tr *ngFor="let employee of data">
+    <td class="rows">{{ employee.personalNumber }}</td>
+    <td class="rows">{{ employee.name }}</td>
+    <td class="rows"><button class="remove-button button-45" (click)="remove(employee.personalNumber)"> - </button></td>
+  </tr>
+  </tbody>
+</table>

@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {NgModule} from '@angular/core';
 import { ProjectListComponent } from './project-list.component';
 import {CommonModule} from "@angular/common";
 import {MatListModule} from "@angular/material/list";
@@ -8,6 +8,7 @@ import {MatListModule} from "@angular/material/list";
     CommonModule,
     MatListModule
   ],
+
   declarations: [ProjectListComponent],
   providers: [],
   exports: [ProjectListComponent]
