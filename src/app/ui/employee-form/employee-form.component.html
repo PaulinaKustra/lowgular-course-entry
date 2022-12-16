@@ -1,12 +1,32 @@
-<form [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
-  <input type="text" formControlName="name" placeholder="Name">
-  <input type="text" formControlName="surname" placeholder="Surname">
-  <input type="number" formControlName="age" placeholder="Age">
-  <input type="number" formControlName="salary" placeholder="Salary">
-  <input type="submit" value="Submit">
-</form>
+<!--<form class="form-label" [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">-->
+<!--  <input class="form-control" type="text" formControlName="name" placeholder="Name">-->
+<!--  <input class="form-control" type="text" formControlName="surname" placeholder="Surname">-->
+<!--  <input class="form-control" type="number" formControlName="age" placeholder="Age">-->
+<!--  <input class="form-control" type="number" formControlName="salary" placeholder="Salary">-->
+<!--  <input type="submit" value="Submit">-->
+<!--</form>-->
 
-<div *ngIf="!employeeForm.invalid">
-  Your new employee: {{employeeForm.value.name}} {{employeeForm.value.surname}}, age: {{employeeForm.value.age}} with salary: {{employeeForm.value.salary}} will be added to the system.
+<!--<div *ngIf="!employeeForm.invalid">-->
+<!--  Your new employee: {{employeeForm.value.name}} {{employeeForm.value.surname}}, age: {{employeeForm.value.age}} with salary: {{employeeForm.value.salary}} will be added to the system.-->
+<!--</div>-->
+
+
+<form class="form-label" [formGroup]="employeeForm" (ngSubmit)="onFormSubmitted(employeeForm.value)">
+<div class="row">
+  <div class="col">
+    <input type="text" class="form-control" placeholder= "Name" aria-label="Name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Surname" aria-label="Surname">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Age" aria-label="Age">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Salary" aria-label="Salary">
+  </div>
+  <div>
+    <button type="button" class="btn btn-outline-primary">Submit</button>
+  </div>
 </div>
-
+</form>
