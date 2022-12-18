@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let item of projects$ | async">{{ item.id }}: {{item.name}}: {{item.owner}}</li>
+</ul>
