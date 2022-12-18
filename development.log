@@ -1,0 +1,750 @@
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 419
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "xiPDiP5foF",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 419
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "xiPDiP5foF",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "xiPDiP5foF",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 498
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "2vE1xOjhxV",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 498
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for injectable/list: {
+	"action": "injectable/list",
+	"params": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "2vE1xOjhxV",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/list"
+}
+[info] [CLI] Calling Query injectable/list: {
+	"funcParams": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query injectable/list"
+}
+[info] [CLI] Called Query injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query injectable/list"
+}
+[info] [API] Response ok: injectable/list: {
+	"result": [
+		{
+			"id": "httpClient",
+			"dataType": "External",
+			"name": "HttpClient",
+			"relatedTypes": {}
+		},
+		{
+			"id": "activatedRoute",
+			"dataType": "External",
+			"name": "ActivatedRoute",
+			"relatedTypes": {}
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: injectable/list"
+}
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 498
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "rkutv4c6EF",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [API] Request for injectable/inject-external: {
+	"action": "injectable/inject-external",
+	"params": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Paulina/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "93btFzSWtH",
+			"correlationId": "2vE1xOjhxV",
+			"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for injectable/inject-external"
+}
+[info] [CLI] Calling Command injectable/inject-external: {
+	"funcParams": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalId": "httpClient"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Command injectable/inject-external"
+}
+[info] [API] Response ok: injectable/inject-external: {
+	"result": {
+		"filePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts"
+	},
+	"level": "info",
+	"message": "[API] Response ok: injectable/inject-external"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Command injectable/inject-external: {
+	"message": "[CLI] Called Command injectable/inject-external",
+	"level": "info"
+}
+[info] [CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Dispatching command INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY: {
+	"commandName": "INJECT_EXTERNAL_DEPENDENCY",
+	"payload": {
+		"entityFilePath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"externalType": "HttpClient",
+		"genericFilePaths": []
+	},
+	"level": "info",
+	"message": "[CommandBus]: Handled  INJECT_EXTERNAL_DEPENDENCY"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Paulina/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+		"position": 498
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "EmployeeListComponent",
+			"parentProperty": "data$"
+		},
+		"children": [
+			{
+				"label": "Properties",
+				"children": [
+					{
+						"label": "data$",
+						"children": [
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_MAP",
+								"label": "Map Property",
+								"callPath": [
+									"data$"
+								]
+							},
+							{
+								"actionId": "RXJS_CALL_EXPRESSIONS_TAP",
+								"label": "Property Side Effect",
+								"callPath": [
+									"data$"
+								]
+							}
+						]
+					},
+					{
+						"actionId": "ADD_FORM",
+						"label": "Create Form Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_CREATE",
+						"label": "Create Data Property",
+						"callPath": []
+					},
+					{
+						"actionId": "RXJS_PROPERTY_SUBJECT_CREATE",
+						"label": "Create Subject Property",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Inject",
+				"actionId": "INJECT",
+				"callPath": []
+			},
+			{
+				"label": "Methods",
+				"children": [
+					{
+						"actionId": "METHOD_CREATE",
+						"label": "Create New Method",
+						"callPath": []
+					}
+				]
+			},
+			{
+				"label": "Add Component to Route",
+				"actionId": "ADD_TO_ROUTE",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
