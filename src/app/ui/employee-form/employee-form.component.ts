@@ -1,5 +1,5 @@
-import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
+import {ChangeDetectionStrategy, Component, ViewEncapsulation} from '@angular/core';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-employee-form',
@@ -9,11 +9,13 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 })
 export class EmployeeFormComponent {
   readonly employeeForm: FormGroup = new FormGroup({
-    name: new FormControl(null, [Validators.required]),
+    email: new FormControl(null, [Validators.required]),
     age: new FormControl(null, [Validators.min(18), Validators.required]),
     salary: new FormControl(null, [Validators.required])
   });
 
-  onEmployeeFormSubmitted(employeeForm: FormGroup): void {
+  onButtonClicked(employeeForm: { email: string, age: string, salary: number }) {
+    alert('User was successfully added to the database. ' +
+      ' Email: ' + employeeForm.email + ', Age: ' + employeeForm.age + ', Salary: ' + employeeForm.salary)
   }
 }
